@@ -12,10 +12,7 @@ void main()
     }
     
     printf("%d",fact);
-   
 }
-
-
 
 //using recursion
 
