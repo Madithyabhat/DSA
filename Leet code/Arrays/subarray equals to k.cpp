@@ -3,7 +3,7 @@
 //     int subarraySum(vector<int>& nums, int k) {
 
 //         unordered_map<int, int> mp;              // creating dic
-
+                                                     //  then make sum,count=0
 //         mp[0] = 1;
 
 //         int sum = 0;
