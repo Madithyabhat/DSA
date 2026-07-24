@@ -2,7 +2,7 @@
 // public:
 //     int subarraySum(vector<int>& nums, int k) {
 
-//         unordered_map<int, int> mp;
+//         unordered_map<int, int> mp;              // creating dic
 
 //         mp[0] = 1;
 
@@ -22,6 +22,7 @@
 //         return count;
 //     }
 // };
+
 
 
 
