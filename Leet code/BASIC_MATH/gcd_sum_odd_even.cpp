@@ -7,8 +7,6 @@
 
 // Return the GCD of sumOdd and sumEven.
 
- 
-
 // Example 1:
 
 // Input: n = 4
