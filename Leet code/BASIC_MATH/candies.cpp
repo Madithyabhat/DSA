@@ -39,19 +39,19 @@
 // Explanation: Since there are only 2 candies, we buy both of them. There is not a third candy we can take for free.
 // Hence, the minimum cost to buy all candies is 5 + 5 = 10.
 
-class Solution {
-public:
-    int minimumCost(vector<int>& cost) 
-    {                                             // 9 7 6 5 2 2
-        sort(cost.begin(),cost.end(),greater<int>());
-        int sum=0;
-        for(int i=0;i<cost.size();i++)
-        {
-            if((i+1)%3!=0)
-            sum=sum+cost[i];
-        }
-        return sum;
+// class Solution {
+// public:
+//     int minimumCost(vector<int>& cost) 
+//     {                                             // 9 7 6 5 2 2
+//         sort(cost.begin(),cost.end(),greater<int>());
+//         int sum=0;
+//         for(int i=0;i<cost.size();i++)
+//         {
+//             if((i+1)%3!=0)
+//             sum=sum+cost[i];
+//         }
+//         return sum;
 
         
-    }
-};
+//     }
+// };
