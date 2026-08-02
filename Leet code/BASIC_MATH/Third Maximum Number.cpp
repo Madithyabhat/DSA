@@ -40,7 +40,7 @@
 // -231 <= nums[i] <= 231 - 1
  
 
-Follow up: Can you find an O(n) solution?
+// Follow up: Can you find an O(n) solution?
 
 // class Solution {
 // public:
