@@ -24,3 +24,24 @@
 // Output: [2,3,4]
 // Explanation:
 // The smallest integer is 1 and the largest is 5, so the full range should be [1,2,3,4,5]. The missing integers are 2, 3, and 4.
+
+class Solution {
+public:
+    vector<int> findMissingElements(vector<int>& nums)
+     {
+        sort(nums.begin(),nums.end());
+        vector<int>ans;
+        int n=nums.size();
+        
+
+       
+        for(int i=0;i<n-1;i++)
+        {
+          for(int j=nums[i]+1;j<nums[i+1];j++)
+          ans.push_back(j);
+        }
+return ans;
+        
+        
+    }
+};
