@@ -11,25 +11,25 @@
 // Explanation:
 // The digit product of 16 is 6, which is divisible by 3, making it the smallest number greater than or equal to 15 that satisfies the condition.
 
-class Solution {
-public:
-    int smallestNumber(int n, int t) 
-    {
-        for(int i=n;;i++)
-        {
-            int num=i;
-            int product=1;
-            while(num>0)
-            {
-                product=product*(num%10);
-                num=num/10;
-                if(product==0)
-                break;
-            }      
-            if(product%t==0)
-            return i;
-        }
+// class Solution {
+// public:
+//     int smallestNumber(int n, int t) 
+//     {
+//         for(int i=n;;i++)
+//         {
+//             int num=i;
+//             int product=1;
+//             while(num>0)
+//             {
+//                 product=product*(num%10);
+//                 num=num/10;
+//                 if(product==0)
+//                 break;
+//             }      
+//             if(product%t==0)
+//             return i;
+//         }
 
         
-    }
-};
+//     }
+// };
