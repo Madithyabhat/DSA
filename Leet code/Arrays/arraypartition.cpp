@@ -13,8 +13,8 @@
 // Output: 9
 // Explanation: The optimal pairing is (2, 1), (2, 5), (6, 6). min(2, 1) + min(2, 5) + min(6, 6) = 1 + 2 + 6 = 9.
 
-class Solution {
-public:
+// class Solution {
+// public:
     int arrayPairSum(vector<int>& nums) 
     {
         sort(nums.begin(), nums.end());
