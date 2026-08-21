@@ -17,19 +17,19 @@
 // Explanation: Change nums to be [4, 4, 4]. The score is max(nums) - min(nums) = 4 - 4 = 0.
 
 
-class Solution {
-public:
-    int smallestRangeI(vector<int>& nums, int k) 
-    {
-         int mn = *min_element(nums.begin(), nums.end());
-        int mx = *max_element(nums.begin(), nums.end());
+// class Solution {
+// public:
+//     int smallestRangeI(vector<int>& nums, int k) 
+//     {
+//          int mn = *min_element(nums.begin(), nums.end());
+//         int mx = *max_element(nums.begin(), nums.end());
 
-        int range = mx - mn - 2 * k;
+//         int range = mx - mn - 2 * k;
 
-        if(range>=0)      // max-min should give small value so (max-k) - (min+k)
-        return range;     //   max-k-min-k= max-min-2k
+//         if(range>=0)      // max-min should give small value so (max-k) - (min+k)
+//         return range;     //   max-k-min-k= max-min-2k
 
-        else
-        return 0;
-    }
-};
+//         else
+//         return 0;
+//     }
+// };
