@@ -22,7 +22,7 @@
 
 //         for(int num : nums) {
 //             currSum += num;
-//             maxSum = max(maxSum, currSum);
+//             maxSum = max(maxSum, currSum);   kadanes algo
 
 //             if(currSum < 0)
 //                 currSum = 0;
