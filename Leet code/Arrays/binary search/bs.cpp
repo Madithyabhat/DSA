@@ -22,4 +22,4 @@
 //     }
 // };nj
 
-jsc s sc sj
+jsc s sc sj scsc 
